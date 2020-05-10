@@ -47,8 +47,14 @@ input[type=text]{
 	border: 2px solid black;
 	padding: 20px;
 	height: 75px;
-	background: beige;
+	background-image: url("logo.png");
+	background-position: right;
 	color: black;
+}
+
+h1 {
+	color: white;
+	margin-right: 280px;
 }
 
 ul {
@@ -61,9 +67,14 @@ label{
 	display: block;
 }
 
+
 input{
 	width: 30px;
 	margin-left: 20px;
+}
+
+input[type=submit]{
+	width: 100px;
 }
 
 h2{
