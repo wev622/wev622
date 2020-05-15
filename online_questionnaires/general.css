@@ -4,13 +4,9 @@ body{
     font-size: 15px;
 }
 
-.textfield{
-    width: 300px;
-    height: 100px
-}
-
 input[type=text]{
-    width: 95%;
+    /*width: 95%;*/
+	width: 50vw;
     height: 25px;
     text-align: left;
     vertical-align: text-top;
@@ -27,13 +23,8 @@ input[type=text]{
     list-style-type: none;
 }
 
-#age, #gender, #subject{
-    height: 15px;
-    width: 200px
-}
-
 #main{
-    width: 100%;
+    width: 75vw;
     max-width: 820px;
     border: 1px gray solid;
     margin: auto;
@@ -46,15 +37,21 @@ input[type=text]{
     margin-top: 0;
     border: 2px solid black;
     padding: 20px;
-    height: 75px;
+    /*height: 75px;*/
+	height: calc(200px - 5vw);
     background-image: url("logo.png");
-    background-position: right;
+	background-repeat: no-repeat;
+    background-position: right top;
+	background-size: 120vh;
+	background-color: #00355f;
     color: black;
+	padding-top: calc(100px - 10vw);
 }
 
 h1 {
     color: white;
     margin-right: 280px;
+	margin-top: 10vh;
 }
 
 ul {
@@ -69,7 +66,8 @@ label{
 
 
 input{
-    width: 30px;
+    /*width: 30px;*/
+	width: calc(170px - 10vw);
     margin-left: 20px;
 }
 
